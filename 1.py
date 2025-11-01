@@ -31,7 +31,7 @@ QUERY = "ANY"
 REQ_EST_SIZE = 70
 BUF_SIZE = 4096
 TIMEOUT = 1.5
-CONCURRENCY = 200
+CONCURRENCY = 45
 WRITE_THRESHOLD = 1000  # bytes threshold to save the host
 
 write_lock = threading.Lock()
